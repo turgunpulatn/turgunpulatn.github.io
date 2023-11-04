@@ -1,17 +1,70 @@
-h1
+.me
 {
     text-align: center;
-    background-color:teal
+    color: white;
 }
-h2
+.welcoming
 {
-    color:darkslategray ;
+    text-align: center;
+    color: white;
+}
+.introduction
+{
+    text-align: center;
+    color: white;
+}
+#myVideo {
+    z-index: -1;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+.button
+{
+    text-align: center;
+    color: black;
+    background: white;
+    width: 20%;
+    height: 10%;
+    display: block;
+    position: absolute;
+    margin: 10% 40%;
+    border-radius: 20px;
+}
+.button a
+{
+    margin-top: 50px;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contacting
+{
+    color: white;
+    margin: 0 0;
+}
+.email
+{
+    color: white;
+}
+.phone
+{
+    color: white;
+}
+.telegram
+{
+    color: white;
+}
+.instagram
+{
+    color: white;
 }
 body
 {
-    background-color:azure;
+    background: black;
 }
-h3
+.visiting
 {
-    color:slategray;
+    color: white;
 }

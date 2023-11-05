@@ -21,6 +21,14 @@
     min-width: 100%;
     min-height: 100%;
 }
+#myVideo1 {
+    z-index: -1;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
 .button
 {
     text-align: center;
@@ -67,4 +75,35 @@ body
 .visiting
 {
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.my_intro
+{
+    color: white;
+}
+.timetable
+{
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.lectures h3
+{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.movies
+{
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.moviess
+{
+    color: white;
+}
+.sport
+{
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }

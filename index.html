@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    <div id="title">U2310182</div>
     <div class="me">
         <h1>Nigmanxodjaev Turg'unpo'lat</h1>
         <h1>U2310182</h1>
@@ -28,5 +29,17 @@
     <h3 class="telegram">Telegram: turgun_pulat.n</h3>
     <h3 class="instagram">Instagram: turgun_pulat.n</h3>
     
+    <!-- JavaScript for dynamic title change -->
+    <script>
+        window.addEventListener("blur", () => {
+            document.getElementById("title").classList.add("blur");
+            document.getElementById("title").textContent = "Come back please";
+        });
+
+        window.addEventListener("focus", () => {
+            document.getElementById("title").classList.remove("blur");
+            document.getElementById("title").textContent = "U2310182";
+        });
+    </script>
 </body>
 </html>

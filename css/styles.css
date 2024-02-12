@@ -1,121 +1,6 @@
-.me
-{
-    text-align: center;
-    color: white;
-}
-.welcoming
-{
-    text-align: center;
-    color: white;
-}
-.introduction
-{
-    text-align: center;
-    color: white;
-}
-#myVideo {
-    z-index: -1;
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-}
-#myVideo1 {
-    z-index: -1;
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-}
-.button
-{
-    text-align: center;
-    color: black;
-    background: white;
-    width: 20%;
-    height: 10%;
-    display: block;
-    position: absolute;
-    margin: 10% 40%;
-    border-radius: 20px;
-}
-.contacting
-{
-    color: white;
-    margin: 0 0;
-}
-.email
-{
-    color: white;
-}
-.phone
-{
-    color: white;
-}
-.telegram
-{
-    color: white;
-}
-.instagram
-{
-    color: white;
-}
-body
-{
-    background: black;
-}
-.visiting
-{
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.my_intro
-{
-    color: white;
-}
-.timetable
-{
-    color: white;
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.lectures h3
-{
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.movies
-{
-    color: white;
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.moviess
-{
-    color: white;
-}
-.moviess a
-{
-    color: cornflowerblue;
-}
-.sport
-{
-    color: white;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-}
-.friends
-{
-    color: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
 #title {
   font-size: 24px;
   font-weight: bold;
-}
-.blur {
   animation: blinkText 1s infinite;
 }
 
@@ -130,3 +15,91 @@ body
     opacity: 1;
   }
 }
+
+/* Your existing CSS code here */
+.me {
+  text-align: center;
+  color: white;
+}
+.welcoming {
+  text-align: center;
+  color: white;
+}
+.introduction {
+  text-align: center;
+  color: white;
+}
+#myVideo {
+  z-index: -1;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+.button {
+  text-align: center;
+  color: black;
+  background: white;
+  width: 20%;
+  height: 10%;
+  display: block;
+  position: absolute;
+  margin: 10% 40%;
+  border-radius: 20px;
+}
+.contacting {
+  color: white;
+  margin: 0 0;
+}
+.email {
+  color: white;
+}
+.phone {
+  color: white;
+}
+.telegram {
+  color: white;
+}
+.instagram {
+  color: white;
+}
+body {
+  background: black;
+}
+.visiting {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.my_intro {
+  color: white;
+}
+.timetable {
+  color: white;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.lectures h3 {
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.movies {
+  color: white;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.moviess {
+  color: white;
+}
+.moviess a {
+  color: cornflowerblue;
+}
+.sport {
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.friends {
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
